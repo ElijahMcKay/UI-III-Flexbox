@@ -71,23 +71,30 @@ body {
 }
 
 .nav-parent {
-	display: flex; 
+	display: flex;  
+	width: 800px; 
+	text-decoration: row; 
 	justify-content: space-between; 
-	width: 100%; 
-	align-items: center; 
-}
-
-header a {
-	text-decoration: none; 
-	color: lightgray; 
-}
-
-.logo {
 	
 }
 
+.nav-child {
+	width: 550px; 
+}
+
+nav a {
+	color: lightgray; 
+	text-decoration: none; 
+}
+
+.header-logo {
+	display: flex; 
+	justify-content: end; 
+
+}
+
 .main-top {
-	width: 100%; 
+	width: 800px; 
 	margin: auto;
 	padding-top: 50px; 
 	display: flex; 
@@ -124,7 +131,7 @@ button {
 }
 
 hr {
-	width: 100%; 
+	width: 800px; 
 	color: black; 
 	border: 1px solid black;
 	margin-top: 75px; 
@@ -143,19 +150,19 @@ h2 {
 }
 
 .middle-left {
-	width: 48%; 
+	width: 400px; 
 	display: flex; 
 	flex-direction: column; 
 }
 
 .middle-right {
-	width: 48%; 
+	width: 400px; 
 	display: flex; 
 	flex-direction: column;
 }
 
 .middle-img {
-	width: 100%; 
+	width: 800px; 
 	margin: 50px 0px;  
 }
 
@@ -167,23 +174,21 @@ h2 {
 	display: flex; 
 	flex-direction: row; 
 	justify-content: space-evenly;  
+	width: 800px; 
 } 
 
 .bottom-left {
 	font-size: 24px; 
-	width: 30%;
 	margin: 0px 10px; 
 }
 
 .bottom-middle {
 	font-size: 24px; 
-	width: 30%;
 	margin: 0px 10px; 
 }
 
 .bottom-right {
-	font-size: 24px; 
-	width: 30%;
+	font-size: 24px;
 	margin: 0px 10px; 
 }
 
@@ -194,7 +199,6 @@ footer {
 .copy {
 	text-align: center; 
 }
-
 
 
 
